@@ -1,0 +1,6 @@
+[book]
+authors = ["[Vlad Doniga]"]
+language = "en"
+multilingual = false
+src = "src"
+title = "LEPL1103-EDP-Analyse_Complexe"
