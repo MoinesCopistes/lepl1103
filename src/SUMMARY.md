@@ -5,3 +5,6 @@
   - [Méthode des caractéristique](1er_ordre/Caractéristique.md)
 
 - [Second ordre](2eme_ordre/Généralités.md)
+  - [Méthodes des caractéristiques]()
+  - [Équation d'onde](2eme_ordre/Onde.md)
+  - [Méthode de la séparation de variables]()

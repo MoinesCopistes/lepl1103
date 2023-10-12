@@ -3,10 +3,11 @@ authors = ["[Vlad Doniga]"]
 language = "fr"
 multilingual = false
 src = "src"
-title = "LEPL1103-EDP-Analyse_Complexe"
+title = "LEPL1103 - Notes"
 
 [preprocessor.katex]
 after = ["links"]
+throw-on-error = false
 
 [preprocessor.admonish]
 command = "mdbook-admonish"
@@ -24,7 +25,7 @@ default-theme = "light"
 # no-section-label = false
 git-repository-url = "https://github.com/"
 git-repository-icon = "fa-github"
-additional-css = ['mdbook-admonish.css']
+additional-css = ['mdbook-admonish.css','katex-supp.css']
 # edit-url-template = "https://github.com/rust-lang/mdBook/edit/master/guide/{path}"
 # site-url = "/example-book/"
 # cname = "myproject.rs"
