@@ -1,24 +1,8 @@
-# EDP du premier ordre
+# Méthode des caractéristique
 
-L'EDP ***quasi-linéaire*** la plus générale à 2 variables indépendantes s'écrit :
-$$
-\large P \frac{\partial u}{\partial x} + Q \frac{\partial u}{\partial y} =R
-$$
-avec $\large P,Q,R$ qui sont fonctions de $\large x,y,u$
-
-L'EDP ***linéaire*** la plus générale à 2 variables indépendantes s'écrit :
-$$
-\large P \frac{\partial u}{\partial x} + Q \frac{\partial u}{\partial y} +Gu=F
-$$
-avec $\large P,Q,G,F$ qui sont fonctions de $\large x,y$ (On peut noter $\large R=F-Gu$). 
-Elle sont homogènes quand $\large F=0$ et quand $\large R=0$.
-
-Point important à savoir, toutes les EDP du premier ordre sont dites *hyperboliques* donc elles ont toutes des caractéristiques.
-
-## Méthode des caractéristiques
 
 La méthode des caractéristiques consiste à traduire notre EDP en une EDO plus facile à résoudre
-### Problème de Cauchy
+## Problème de Cauchy
 
 Si on a $\large u$ paramétrisé par la courbe $\large \Gamma \equiv(x(s),y(s))$, donc $\large u(x(s),y(s))=u(s)$ est une fonction donnée. Alors on peut obtenir $\large u$ dans le voisinage de $\large \Gamma$ et donc petit-à-petit construire la solution complète $\large u$ (qui est encore une fois une surface). *C'est le problème de Cauchy.*
 
@@ -60,7 +44,7 @@ $$
 \large u(x+\text{d}x, y+\text{d}y)=u(x,y)+\text{d}x\frac{\partial u}{\partial x}(x,y)+\text{d}y\frac{\partial u}{\partial y}(x,y)
 $$
 Ceci correspond à la formule du plan tangent à une surface pour tout point infiniment proche de la courbe $\large \Gamma$, cette relation est donc exacte parce qu'elle ne concerne pas des points à une distance finie de la courbe. *En répétant la procédure, on peut donc (du moins en principe) se propager petit pas par petit pas et obtenir la solution de l’EDP de plus en plus loin de la courbe $\large \Gamma$*. Mais pas dingue comme méthode. On dit que le problème de Cauchy est bien posé si la courbe $\large \Gamma$ est telle que le déterminant $\large \neq 0$ pour tout ses points.
-### Résolution :
+## Résolution :
 
 On considère maintenant un problème bien posé. Pour une direction $\large (\text{d}x,\text{d}y)$ non parallèle à $\large \Gamma$, la variation $\large \text{d}u$ qui y correspond est liée à $\large \text{d}x$ et $\large \text{d}y$ par :
 $$
@@ -102,4 +86,5 @@ C'est la ***direction caractéristique***. Ceci nous donne une EDO ($\large \neq
 $$
 \large P\, \text{d}u=R\,\text{d}x \quad\ \Leftrightarrow \quad\ Q\, \text{d}u=R\, \text{d}y
 $$
+
 
