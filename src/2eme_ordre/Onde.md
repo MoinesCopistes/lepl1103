@@ -128,5 +128,13 @@ $$\phi(x, t) = \frac{1}{2}(f_1(x - ct) + f_2(x+ ct)$$
 
 ```admonish warning title="Important"
 
-Cela peut paraitre contre-intuitif de dire que si on connait $\phi(x, 0)$ on connait $\phi(x, t)$ mais //TODO: 
+Cela peut paraitre contre-intuitif de dire que si on connait $\phi(x, 0)$ on connait $\phi(x, t)$ mais étant donné que $f_1$ et $f_2$ sont des fonctions avec un paramètre $x \pm ct$, peu importe le t c'est comme si on avait un autre x en t = 0
+
+Par exemple, prenons $c = 1$, $t=0$, $x=2$ avec $f_1(2) = 5$
+
+Et bien je connaitrai $f_1$ pour $c=1$, $t=2$, $x=0$ car $f_1(0 + 2) = f_1(2) = 5$ )  
+
+
+
+ 
 ```
