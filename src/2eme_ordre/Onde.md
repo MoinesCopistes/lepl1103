@@ -28,9 +28,9 @@ Malgré ce changement de variables, $\phi$ reste défini pour tout l'espace. On 
 
 $x = \frac{1}{2}(\eta + \xi)$
 
-$y = \frac{1}{2}(\eta - \xi)$
+$t = \frac{1}{2}(\eta - \xi)$
 
-Chaque point $(x,y)$ peut donc être associé a un point $(\eta, \xi)$.
+Chaque point $(x,t)$ peut donc être associé a un point $(\eta, \xi)$.
 
 ```
 
