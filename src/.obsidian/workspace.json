@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "b2ca615606771e5f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ch.3.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "88864350cf70ef91",
             "type": "leaf",
             "state": {
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ch.2.md",
+                "file": "Ch.3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ch.2.md",
+                "file": "Ch.3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ch.2.md"
+                "file": "Ch.3.md"
               }
             }
           }
@@ -158,12 +171,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "978292338314188a",
+  "active": "b2ca615606771e5f",
   "lastOpenFiles": [
-    "Ch.1.md",
     "Ch.2.md",
-    "Resources.md",
+    "Ch.3.md",
+    "SUMMARY.md",
     "Sources.md",
-    "SUMMARY.md"
+    "Resources.md",
+    "Ch.1.md",
+    "2._EDPs_du_1e_Ordre.md"
   ]
 }

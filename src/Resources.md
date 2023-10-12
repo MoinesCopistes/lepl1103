@@ -1,4 +1,3 @@
-
 # Definition de la linéarité :
 
 ^115a42
