@@ -73,7 +73,8 @@ Il est donc possible de connaitre la forme de $\phi(\xi, \eta)$ en intégrant ce
 
 $$\int d\eta \int \frac{\partial}{\partial \xi \partial \eta} d\xi= \int d\xi \int 0 d\eta$$
 $$\phi(\xi, \eta) = \int c_1(\xi) d\xi $$
-$$\boxed{ \phi(\xi, \eta) = f_1(\xi) + f_2(\eta) }$$
+$$\phi(\xi, \eta) = f_1(\xi) + f_2(\eta) $$
+$$\boxed{ \phi(x, t) = f_1(x-ct) + f_2(x+ct) }$$
 
 
 ```admonish warning title="Important"
@@ -82,6 +83,50 @@ $f_1$ et $f_2$ apparaissent avec les constantes d'intégration (en effet, intég
 
 ```
 
+Maintenant que nous connaissons la forme de la solution, pourquoi ne pas essayer de trouver cette solution !
 
+Comme c'est le cas pour toutes les EDP du deuxième ordre, il nous faut 2 conditions initiales afin de pouvoir trouver une solution. 
 
+Explorons différent cas !
 
+### Le cas le plus simple
+
+Prenons comme courbe $\Gamma$ définie par $x(s) = s$ et $ct(s) = 0$ (autrement dit, l'axe $Ox$ ) 
+
+Et prenons comme conditions initiales :
+
+$$ \phi(s, 0) = f(s)$$
+$$ \frac{\partial \phi}{\partial t}(s,0) = 0 $$
+
+Connaissant la forme de la solution: $\phi(x,y) = f_1(x-ct) + f_2(x+ct)$, on sait que:
+
+$$\phi(s,0) = f(s) = f_1(x) + f_2(x)$$
+
+Et comme nous le dit la première condition initiale:
+
+$$\frac{\partial \phi}{\partial t}(s,0) = 0$$
+$$f_1'(\xi) {\color{#e74c3c} \frac{\partial \xi}{\partial t}} + f_2'(\eta) {\color{#8e44ad} \frac{\partial \eta}{\partial t} }= 0$$
+$${\color{#e74c3c} -c}f_1'(\xi) + f_2'(\eta){\color{#8e44ad} c} = 0$$
+$$f_1' = f_2'$$
+
+Et selon le théorème fondamental de l'analyse:
+
+$$f_1 = f_2 + C$$
+
+On peut donc conclure que $f_1$ est égal à $f_2$ a une constante près. On peut substituer $f_1$ par $f_2 + C$ dans l'expression de la solution pour écrire:
+
+$$\phi(x,0) = f(x) = f_2(x) + f_2(x) + C$$
+$$f_2(x) = \frac{f(x) - C}{2}$$
+
+et en suivant le même raisonnement dans l'autre sens:
+
+$$f_1(x) = \frac{f(x) + C}{2}$$
+
+Et que donc:
+
+$$\phi(x, t) = \frac{1}{2}(f_1(x - ct) + f_2(x+ ct)$$
+
+```admonish warning title="Important"
+
+Cela peut paraitre contre-intuitif de dire que si on connait $\phi(x, 0)$ on connait $\phi(x, t)$ mais //TODO: 
+```
