@@ -20,7 +20,7 @@ $$ \eta = x + ct $$
 
 Prenons donc $\xi$ et $\eta$ comme variables.
 
-La fonction $\phi(x,t)$ deviendra donc $\phi(\xi, \eta$
+La fonction $\phi(x,t)$ deviendra donc $\phi(\xi, \eta)$
 
 ```admonish note
 
