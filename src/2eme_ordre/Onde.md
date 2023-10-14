@@ -102,16 +102,30 @@ Connaissant la forme de la solution: $\phi(x,y) = f_1(x-ct) + f_2(x+ct)$, on sai
 
 $$\phi(s,0) = f(s) = f_1(x) + f_2(x)$$
 
-Et comme nous le dit la première condition initiale:
+Et comme nous le dit la première condition initiale, en $t=0$:
+
+ (avec $\xi = s - ct$ et $\eta = s + ct$ ):
 
 $$\frac{\partial \phi}{\partial t}(s,0) = 0$$
 $$f_1'(\xi) {\color{#e74c3c} \frac{\partial \xi}{\partial t}} + f_2'(\eta) {\color{#8e44ad} \frac{\partial \eta}{\partial t} }= 0$$
-$${\color{#e74c3c} -c}f_1'(\xi) + f_2'(\eta){\color{#8e44ad} c} = 0$$
-$$f_1' = f_2'$$
+$${\color{#e74c3c} -c}f_1'(s) + f_2'(s){\color{#8e44ad} c} = 0$$
+$$f_1'(s) = f_2'(s)$$
 
 Et selon le théorème fondamental de l'analyse:
 
 $$f_1 = f_2 + C$$
+
+```admonish warning title="Important"
+
+Cette égalité $f_1' = f_2'$ n'est a priori valable que lorsque t = 0, car elle provient de la première condition initiale en t = 0.
+
+
+Mais comme avec la contrainte t = 0 il est toujours possible d'atteindre **tout** le domaine de $f_1$ et $f_2$, l'égalité sera respectée même lorsque t ne vaut pas 0
+
+(D'une manière plus intuitive, comme on connait $f_1$ et $f_2$ sur tout l'axe Ox, et que le paramètre t provoque juste une translation sur ce même axe ($x \pm ct$), on connaitra toujours la valeur pour un t non nul, qui correspondra a la valeur d'un autre x en t=0.)
+
+
+```
 
 On peut donc conclure que $f_1$ est égal à $f_2$ a une constante près. On peut substituer $f_1$ par $f_2 + C$ dans l'expression de la solution pour écrire:
 
@@ -126,16 +140,3 @@ Et que donc:
 
 $$\phi(x, t) = \frac{1}{2}(f_1(x - ct) + f_2(x+ ct)$$
 
-```admonish warning title="Important"
-
-Cela peut paraitre contre-intuitif de dire que si on connait $\phi(x, 0)$ on connait $\phi(x, t)$ mais étant donné que $f_1$ et $f_2$ sont des fonctions avec un paramètre $x \pm ct$, 
-peu importe le t c'est comme si on avait un autre x en t = 0, c'est juste une translation de la fonction sur l'axe des x (axe sur lequel on connait la fonction en tout point). 
-
-Par exemple, prenons $c = 1$, $t=0$, $x=2$ avec $f_1(2) = 5$
-
-Et bien je connaitrai $f_1$ pour $c=1$, $t=2$, $x=0$ car $f_1(0 + 2) = f_1(2) = 5$ )  
-
-
-
- 
-```
