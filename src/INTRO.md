@@ -1,6 +1,6 @@
 # Introduction
 
-En gros une EDP (PDE en anglais) ou Equations aux Dérivées Partielles, c'est l'équivalent des équations différentielles vues l'années passée avec plus d'une variable (en général 2).
+Une EDP (PDE en anglais) ou Equations aux Dérivées Partielles, c'est l'équivalent des équations différentielles vues l'années passée avec plus d'une variable (en général 2).
 Pour vous donner une idée de leur utilité, c'est les équations qui régissent les transfers de chaleur (exemple très utilisé car très parlant), les ondes, les déplacements de fluides, etc...
 
 Il y a quelque chose d'important à savoir par apport à l'utilisation des EDP que l'on aura au fil de l'année : elles n'ont pas de solution générale, c'est au cas par cas en se basant sur des équations de base déjà étudiées par des gens plus intelligents que nous.
