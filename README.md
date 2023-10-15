@@ -22,7 +22,6 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
 
 
 
@@ -82,13 +81,6 @@ Voici ce qu'il est nécéssaire afin de "build" ce livre en local.
 
 
 
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">Retour en haut</a>)</p>
-
 
 
 
@@ -105,6 +97,4 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 [stars-url]: https://github.com/MoinesCopistes/lepl1103/stargazers
 [issues-shield]: https://img.shields.io/github/issues/MoinesCopistes/lepl1103.svg?style=for-the-badge
 [issues-url]: https://github.com/MoinesCopistes/lepl1103/issues
-[license-shield]: https://img.shields.io/github/license/MoinesCopistes/lepl1103.svg?style=for-the-badge
-[license-url]: https://github.com/MoinesCopistes/lepl1103/blob/master/LICENSE.txt
 
