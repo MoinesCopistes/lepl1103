@@ -4,47 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "12669512ef480f54",
+        "id": "f1e7e155d2d2ae5e",
         "type": "tabs",
         "children": [
           {
-            "id": "978292338314188a",
+            "id": "c37ba54a0ee3c50d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ch.2.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b2ca615606771e5f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ch.3.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "88864350cf70ef91",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Resources.md",
+                "file": "1er_ordre/Caractéristique.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ch.3.md",
+                "file": "1er_ordre/Caractéristique.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ch.3.md",
+                "file": "1er_ordre/Caractéristique.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ch.3.md"
+                "file": "1er_ordre/Caractéristique.md"
               }
             }
           }
@@ -171,13 +146,33 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b2ca615606771e5f",
+  "active": "c37ba54a0ee3c50d",
   "lastOpenFiles": [
+    "1er_ordre/Généralités.md",
+    "1er_ordre/Caractéristique.md",
+    "2eme_ordre/Caractéristiques.md",
+    "2eme_ordre/Onde.md",
+    "2eme_ordre/Généralités.md",
+    "1er_ordre/Caractèristique.md",
+    "SUMMARY.md",
+    "1erCaractèristique.md",
+    "1er_ordreCaractèristique.md",
+    "1er_ordCaractèristique.md",
+    "Caractèristique.md",
+    "2eme_ordre/Caractéristiques",
+    "2eme_ordre/Cara",
+    "Resources.md",
+    "2eme_ordre/Charac",
+    "2eme_ordre/Char",
+    "2eme_ordre/Cgar",
+    "2eme_ordre/Cgarac",
+    "2eme_ordre/Cga",
+    "2eme_ordre/[",
+    "2eme_ordre/[[Charactéristiques]]",
+    "2eme_ordre/Cha",
+    "Sources.md",
     "Ch.2.md",
     "Ch.3.md",
-    "SUMMARY.md",
-    "Sources.md",
-    "Resources.md",
     "Ch.1.md",
     "2._EDPs_du_1e_Ordre.md"
   ]
