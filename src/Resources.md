@@ -1,7 +1,5 @@
 # Definition de la linéarité :
 
-^115a42
-
 Tout d'abord on réécrit notre équation de cette façon :
 $$ \mathcal{L}u = 0 $$
 $\mathcal{L}$ est un opérateur  qui assigne u à une fonction.

@@ -5,6 +5,9 @@ La méthode des caractéristiques consiste à traduire notre EDP en une EDO plus
 ## Problème de Cauchy
 
 Si on a $u$ paramétrisé par la courbe $\Gamma \equiv(x(s),y(s))$, donc $u(x(s),y(s))=u(s)$ est une fonction donnée. Alors on peut obtenir $u$ dans le voisinage de $\Gamma$ et donc petit-à-petit construire la solution complète $u$ (qui est encore une fois une surface). *C'est le problème de Cauchy.*
+```admonish note
+Evidemment ce n'est pas ce que l'on va utiliser pour résoudre notre équation. C'est juste pour prouver sa solvabilité.
+```
 
 Puisque $u(s)$ est connue le long de $\Gamma$, $\frac{\text{d}u}{\text{d}s}$ est aussi connu le long de $\Gamma$ et on peut écrire :
 $$
@@ -46,7 +49,7 @@ $$
 Ceci correspond à la formule du plan tangent à une surface pour tout point infiniment proche de la courbe $\Gamma$, cette relation est donc exacte parce qu'elle ne concerne pas des points à une distance finie de la courbe. *En répétant la procédure, on peut donc (du moins en principe) se propager petit pas par petit pas et obtenir la solution de l’EDP de plus en plus loin de la courbe $\Gamma$*. Mais pas dingue comme méthode. On dit que le problème de Cauchy est bien posé si la courbe $\Gamma$ est telle que le déterminant $\neq 0$ pour tout ses points.
 ## Résolution :
 
-On considère maintenant un problème bien posé. Pour une direction $(\text{d}x,\text{d}y)$ non parallèle à $\Gamma$, la variation $\text{d}u$ qui y correspond est liée à $\text{d}x$ et $\text{d}y$ par :
+On considère maintenant un problème bien posé. On considère maintenant une direction $(\text{d}x,\text{d}y)$ non parallèle à $\Gamma$, la variation $\text{d}u$ qui y correspond est liée à $\text{d}x$ et $\text{d}y$ par :
 $$
  \frac{\partial u}{\partial x}\text{d}x+\frac{\partial u}{\partial y}\text{d}y=\text{d}u
 $$

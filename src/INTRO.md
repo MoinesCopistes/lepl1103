@@ -10,5 +10,5 @@ Il y a quelque chose d'important à savoir par apport à l'utilisation des EDP q
 Les EDP peuvent être séparées en plusieurs familles en fonction de plusieurs éléments et en voici les principaux :
 
 - ***Leur ordre*** : L'ordre d'une EDP est l'ordre de la dérivée de plus grand ordre dans l'équation
-- ***Leur linéarité*** : Tous les termes contentant l'inconnue (ou ses dérivées) entrent dans l'équation de façon linéaire. ([Voir la définition](./Resources#Définition de la linéartié))
+- ***Leur linéarité*** : Tous les termes contentant l'inconnue (ou ses dérivées) entrent dans l'équation de façon linéaire. ([Voir la définition](./Resources.md#Definition-de-la-linéarité-:))
 - ***Homogénéité*** : Si tous les termes de l'équation dépendent, ou non, de l'inconnue.

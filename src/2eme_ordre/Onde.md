@@ -5,12 +5,6 @@ Avant de commencer a en parler, commençons par définir l'équation d'onde.
 La voici, dans la plus classique de ses formes:
 
 $$ c² \frac{\partial² \phi}{\partial x²} - \frac{\partial²\phi}{\partial t²} = 0$$
-
-
-## Méthodes des caractéristiques
-
-//TODO
-
 ## Méthode du changement de variable
 
 Il existe, pour cette EDO en tout cas, un changement de variable très malin permettant de la résoudre assez directement.

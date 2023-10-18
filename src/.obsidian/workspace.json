@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1er_ordre/Caractéristique.md",
+                "file": "2eme_ordre/Caractéristiques.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1er_ordre/Caractéristique.md",
+                "file": "2eme_ordre/Caractéristiques.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1er_ordre/Caractéristique.md",
+                "file": "2eme_ordre/Caractéristiques.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1er_ordre/Caractéristique.md"
+                "file": "2eme_ordre/Caractéristiques.md"
               }
             }
           }
@@ -151,17 +151,19 @@
     "1er_ordre/Généralités.md",
     "1er_ordre/Caractéristique.md",
     "2eme_ordre/Caractéristiques.md",
-    "2eme_ordre/Onde.md",
+    "Resources.md",
+    "INTRO.md",
     "2eme_ordre/Généralités.md",
-    "1er_ordre/Caractèristique.md",
+    "2eme_ordre/Onde.md",
     "SUMMARY.md",
+    "Resources",
+    "1er_ordre/Caractèristique.md",
     "1erCaractèristique.md",
     "1er_ordreCaractèristique.md",
     "1er_ordCaractèristique.md",
     "Caractèristique.md",
     "2eme_ordre/Caractéristiques",
     "2eme_ordre/Cara",
-    "Resources.md",
     "2eme_ordre/Charac",
     "2eme_ordre/Char",
     "2eme_ordre/Cgar",
@@ -169,7 +171,6 @@
     "2eme_ordre/Cga",
     "2eme_ordre/[",
     "2eme_ordre/[[Charactéristiques]]",
-    "2eme_ordre/Cha",
     "Sources.md",
     "Ch.2.md",
     "Ch.3.md",
