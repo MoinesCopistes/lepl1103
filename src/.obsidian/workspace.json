@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1er_ordre/Généralités.md",
+                "file": "2eme_ordre/Méthode_de_séparations_de_variables.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1er_ordre/Généralités.md",
+                "file": "2eme_ordre/Méthode_de_séparations_de_variables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1er_ordre/Généralités.md",
+                "file": "2eme_ordre/Méthode_de_séparations_de_variables.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1er_ordre/Généralités.md"
+                "file": "2eme_ordre/Méthode_de_séparations_de_variables.md"
               }
             }
           }
@@ -148,14 +148,19 @@
   },
   "active": "c37ba54a0ee3c50d",
   "lastOpenFiles": [
+    "2eme_ordre/Onde.md",
+    "2eme_ordre/Généralités.md",
     "2eme_ordre/Caractéristiques.md",
+    "2eme_ordre/Méthode_de_séparations_de_variables.md",
+    "SUMMARY.md",
+    "Sources.md",
+    "2eme_ordre/Méthode de séparations de variables.md",
+    "2eme_ordre/Méthode_de_séparations_devariables.md",
+    "().md",
     "1er_ordre/Généralités.md",
     "1er_ordre/Caractéristique.md",
     "Resources.md",
     "INTRO.md",
-    "2eme_ordre/Généralités.md",
-    "2eme_ordre/Onde.md",
-    "SUMMARY.md",
     "Resources",
     "1er_ordre/Caractèristique.md",
     "1erCaractèristique.md",
@@ -171,7 +176,6 @@
     "2eme_ordre/Cga",
     "2eme_ordre/[",
     "2eme_ordre/[[Charactéristiques]]",
-    "Sources.md",
     "Ch.2.md",
     "Ch.3.md",
     "Ch.1.md",
